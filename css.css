@@ -1,0 +1,109 @@
+body {
+    font-family: 'Lusitana', serif;
+    margin-top: 0;
+}
+html {
+    /* font-size: 62.5%; */
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+.header_img {
+    width: 100%;
+}
+.container {
+    width: 76%;
+    margin: auto;
+    background-color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.container_header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #33C6F8;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.container_header-left_register {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 16px 0;
+}
+.container_header-left_instruction {
+    margin: 10px 0;
+}
+.container_header-right_btn {
+    background-color: #5d87c7;
+    border-radius: 22px;
+    padding: 8px 18px;
+    font-size: 18px;
+    border-color: #5d87c7;
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+}
+.country_img {
+    margin: 0px;
+    padding: 3px;
+    border: 2px solid #b9b9b9 ;
+    cursor: pointer;
+}
+.country_img_vietnam {
+    margin: 0px;
+    padding: 3px;
+    border: 2px solid #2700ff;
+    cursor: pointer;
+}
+.introduce {
+    margin-top: 15px;
+    text-align: center;
+}
+.introduce-line1 {
+    font-weight: bold;
+    margin: 0;
+}
+.introduce-line2 {
+    line-height: 35px;
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+}
+.introduce-line3 {
+    color: red;
+    line-height: 35px;
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+}
+
+input, select {
+    height: 34px;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.float-left {
+    float: left;
+}
+.table {
+     width: 100%;
+     border-collapse: collapse;
+}
+.td {
+    border: 1px solid black;
+}
+.btn {
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 8px 18px;
+    background-color: #6ccf5f;
+}
